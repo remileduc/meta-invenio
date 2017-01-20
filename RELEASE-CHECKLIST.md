@@ -51,7 +51,6 @@ First install click and cookiecutter if you don't already have them:
 ```console
 $ mkvirtualenv repocheck
 $ pip install click cookiecutter
-$ cookiecutter cookiecutter-invenio-module
 ```
 
 Next, generate the skeleton project structure (note that you will need to have
@@ -59,7 +58,7 @@ the cookiecutter variables which was used initially ready - see previous
 section):
 
 ```console
-$ cookiecutter cookiecutter-invenio-module
+$ cookiecutter pathto/cookiecutter-invenio-module
 ```
 
 ## 3. Synchronize current project structure with new skeleton structure
