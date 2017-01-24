@@ -187,6 +187,8 @@ be carefully reviewed if needed or not.
 -   [ ] Are all strings decorated as translation strings?
 -   [ ] Have all strings be tested for correct translation - e.g. lazy vs.
     immediate?
+-   [ ] Does Transifex project exists (or is it removed if I18N is not needed).
+-   [ ] Have message catalogue been uploaded to Transifex.
 
 ## 7. Documentation:
 
