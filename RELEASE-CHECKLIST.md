@@ -127,7 +127,7 @@ be carefully reviewed if needed or not.
     -   [ ] ``install_requires`` - Remove ``Flask-Babel`` if no I18N is needed.
     -   [ ] ``setup()`` attributes. Check keywords
     -   [ ] ``entry_points``: Sorted and makes sense?
-    -   [ ] ``classifiers``: Ensure Python 2.7, 3.4, 3.5 as well as
+    -   [ ] ``classifiers``: Ensure Python version classifiers match with tested versions in ``.travis.yml`` as well as
         ``'Development Status :: 4 - Beta'``,
 -   [ ] ``.travis.yml``
     -   [ ] ``matrix > fast_finish: true``
