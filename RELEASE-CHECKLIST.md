@@ -158,6 +158,9 @@ be carefully reviewed if needed or not.
     -   [ ] Important package dependencies should be listed here.
     -   [ ] List of modules in``.editorconfig:known_third_party`` should match
         1-to-1 all devel requirements.
+-   [ ] ``config.py``
+    -   [ ] Check if all variables are used and documented
+    -   [ ] Check if any config variables are set up in extension, refactor to config.py if possible.
 
 
 ## 4. Code improvements:
