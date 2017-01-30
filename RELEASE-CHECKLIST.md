@@ -75,7 +75,7 @@ $ python cookiecutter-invenio-module/scripts/repocheck.py \
 
 Note: The diffs only help to identify which parts *might* not be in sync with
 the latest project structure. Changes cannot be applied blindly and should be
-be carefully reviewed if needed or not.
+carefully reviewed if needed or not.
 
 -   [ ] ``.editorconfig``
 -   [ ] ``.tx/config`` (not needed if module does not require I18N - i.e.
